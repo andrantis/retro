@@ -1,5 +1,5 @@
 .card-container {
-    height: 100px;
+    /*height: 100px;*/
     background-color: #f4f5f7;
     margin: 20px 0;
     border-radius: 6px;
@@ -7,6 +7,11 @@
     padding: 20px;
     font-size: 15px;
     text-align: left;
+    /*if I use textarea as the card.*/
+    width: 100%;
+    border: 0;
+    resize: none;
+    height: auto;
 }
 
 
