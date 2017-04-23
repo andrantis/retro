@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux'
-// import board from './board'
-import columns from './columns'
+import board from './board'
 
 const reducers = combineReducers({
-  columns,
-  // board,
-  // other reducers here
+  board,
 })
 
 export default reducers

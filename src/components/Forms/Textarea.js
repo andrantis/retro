@@ -9,7 +9,7 @@ export default class Textarea extends React.Component {
 
     this.state = {
       height: DEFAULT_HEIGHT,
-      value: ""
+      value: this.props.text
     };
   }
 
@@ -26,7 +26,7 @@ export default class Textarea extends React.Component {
         className="textarea"
         name="textarea"
         id="textarea"
-        defaultValue={value}
+        value={value}
         style={{
           height
         }}

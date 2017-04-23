@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Column.css";
 
-import Card from "./Card";
+import Card from "./Card/Card";
 
 export default class Column extends Component {
   constructor(props) {
